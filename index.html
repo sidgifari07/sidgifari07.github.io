@@ -2,12 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Auto Play Recording</title>
+  <title>Autoplay Audio</title>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+      background-color: #f0f0f0;
+    }
+    audio {
+      outline: none;
+    }
+  </style>
 </head>
 <body>
   <audio autoplay muted controls>
     <source src="https://archive.org/download/recording_202508/recording_202508.m4a" type="audio/mp4">
-    Your browser does not support the audio element.
+    There was a problem playing the audio.
   </audio>
 </body>
 </html>
